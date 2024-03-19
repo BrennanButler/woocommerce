@@ -1,0 +1,4 @@
+Significance: patch
+Type: fix
+
+Fixes an issue where the the wc-block-checkout script is not enqueued, leading to functions such as extensionCartUpdate to not be available where they should be.
